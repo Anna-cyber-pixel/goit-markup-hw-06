@@ -400,6 +400,7 @@ body {
 .footer {
   background-color: var(--secondary-bg-color);
 }
+
 .footer-logo {
   display: inline-block;
   color: var(--secondary-title-color);
@@ -451,6 +452,7 @@ body {
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
+
 }
 .footer-soc-link {
   border-radius: 50%;
@@ -474,7 +476,11 @@ body {
   background-color: var(--accent-color);
   color: var(--secondary-title-color);
 }
-
+.footer-form{
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+}
 .footer-input {
   display: flex;
   justify-content: center;
@@ -502,30 +508,9 @@ color: rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
-/* .btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 50px;
-  border: 0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--secondary-title-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn:hover,
-.btn:focus {
-  background-color: var(--hover-hero-btn-color);
-} */
+
 
 /* ----------PORTFOLIO------------ */
 .filter-list {
@@ -779,7 +764,9 @@ color: rgba(255, 255, 255, 0.6);
   opacity: 1;
 }
 .btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
